@@ -1,0 +1,46 @@
+header h3{
+    margin: 0 auto;
+    color: chartreuse;
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background: url("screen-0.jpg");
+    height:80vh;
+    background-size: contain;
+    position: relative;
+}
+.input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input input{
+    padding: 8px;
+    outline: none;
+    border-radius: 8px;
+    font-size: larger;
+}
+label{
+    color: #35eb10;
+    font-size: large;
+    font-weight: 700;
+}
+footer p{
+    background: #013856;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%
+}  
